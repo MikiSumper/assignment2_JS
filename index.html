@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program za obavljanje osnovnih aritmetičkih operacija</title>
+</head>
+
+<body>
+    <script>
+        let prviBroj = prompt('Unesite prvi broj: ')
+
+        let operacija = prompt('Unesite znak operacije: ')
+
+        let drugiBroj = prompt('Unesite drugi broj: ')
+
+
+        rezultat1 = parseInt(prviBroj) + parseInt(drugiBroj);
+        rezultat2 = parseInt(prviBroj) - parseInt(drugiBroj);
+        rezultat3 = parseInt(prviBroj) * parseInt(drugiBroj);
+        rezultat4 = parseInt(prviBroj) / parseInt(drugiBroj);
+
+
+        switch (operacija) {
+            case "+":
+                alert('Rezultat je: ' + rezultat1)
+                break;
+
+            case "-":
+                alert('Rezultat je: ' + rezultat2)
+                break;
+
+            case "*":
+                alert('Rezultat je: ' + rezultat3)
+                break;
+
+            case "/":
+                alert('Rezultat je: ' + rezultat4)
+                break;
+        }
+    </script>
+</body>
+
+</html>
